@@ -20,7 +20,7 @@ ct.camera.bottom;
 ct.camera.uiToGameCoord(10, 10);
 ct.camera.gameToUiCoord(10, 10);
 
-// Return an array with two elements, x and y coordinates. 
+// Return an array with two elements, x and y coordinates.
 // These are in game coordinates, and take rotation and scaling into account
 ct.camera.getTopLeftCorner();
 ct.camera.getTopRightCorner();

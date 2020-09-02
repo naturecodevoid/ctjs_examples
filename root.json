@@ -1,39 +1,56 @@
 {
     "camera": {
         "coordinates": {
-            "example": "coordinates.txt",
+            "example": "coordinates.js",
             "description": "Camera coordinate manipulation.",
             "link": "https://docs.ctjs.rocks/ct.camera.html#ct-camera-x-ct-camera-y"
         },
         "dimensions": {
-            "example": "dimensions.txt",
+            "example": "dimensions.js",
             "description": "Camera size dimension manipulation.",
             "link": "https://docs.ctjs.rocks/ct.camera.html#ct-camera-width-ct-camera-height"
         },
         "follow": {
-            "example": "rotation.txt",
+            "example": "rotation.js",
             "description": "Camera rotation manipulation.",
             "link": "https://docs.ctjs.rocks/ct.camera.html#ct-camera-follow"
         },
         "scale": {
-            "example": "scale.txt",
+            "example": "scale.js",
             "description": "Camera scale manipulation.",
             "link": "https://docs.ctjs.rocks/ct.camera.html#ct-camera-scale-x-ct-camera-scale-y"
         },
         "rotation": {
-            "example": "rotation.txt",
+            "example": "rotation.js",
             "description": "Camera rotation manipulation.",
             "link": "https://docs.ctjs.rocks/ct.camera.html#ct-camera-rotation"
         },
         "shake": {
-            "example": "shake.txt",
+            "example": "shake.js",
             "description": "Manipulation of the camera's shake effect.",
             "link": "https://docs.ctjs.rocks/ct.camera.html#screen-shake-and-wobble"
         },
         "extra": {
-            "example": "extra.txt",
+            "example": "extra.js",
             "description": "Other camera utilities.",
             "link": "https://docs.ctjs.rocks/ct.camera.html#other"
+        }
+    },
+    "emitters": {
+        "create": {
+            "example": "create.js",
+            "description": "Create an emitter.",
+            "link": "https://docs.ctjs.rocks/ct.emitters.html#creating-effects"
+        },
+        "follow": {
+            "example": "follow.js",
+            "description": "Making an emitter follow a copy.",
+            "link": "https://docs.ctjs.rocks/ct.emitters.html#creating-effects"
+        },
+        "modify": {
+            "example": "modify.js",
+            "description": "Modify an emitter.",
+            "link": "https://docs.ctjs.rocks/ct.emitters.html#manipulating-emitters"
         }
     }
 }

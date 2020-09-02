@@ -1,6 +1,3 @@
-// Spawns effect at specified coordinates
-ct.emitters.fire('EffectName', 10, 10);
-
 // Spawns effect that follows a Copy
 // Example: In context of Type's onStep
 ct.emitters.follow(this, 'EffectName');
@@ -14,23 +11,12 @@ ct.emitters.append(this, 'EffectName');
 ct.emitters.follow(this, 'Debuff', {
     scale: {
         x: 0.75,
-        y: 0.75
+        y: 0.75,
     },
     position: {
         x: 0,
-        y: -80
+        y: -80,
     },
     tint: 0xff9999,
-    depth: this.depth
+    depth: this.depth,
 });
-
-// -----------------------
-
-// Manipulate an emitter
-
-// Let's create a shield bubble!
-this.shied = ct.emitters.append(this, 'BubbleEffect');
-
-// Later, when we no longer need the shield:
-this.shield.stop();
-this.shield = null; // Forget about the effect to free memory
