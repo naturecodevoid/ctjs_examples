@@ -1,0 +1,11 @@
+// Set the default camera's X and Y coordinates
+ct.camera.x = 10;
+ct.camera.y = 12;
+
+// Set the default camera's target X and Y coordinates
+ct.camera.targetX = 10;
+ct.camera.targetY = 12;
+
+// Set the default camera's computed X and Y coordinates
+ct.camera.computedX = 10;
+ct.camera.computedY = 12;

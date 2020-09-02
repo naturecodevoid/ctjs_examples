@@ -1,0 +1,3 @@
+// Make the camera follow a Copy
+// In context of a Type's onStep
+ct.camera.follow = this;
