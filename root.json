@@ -51,6 +51,11 @@
             "example": "modify.js",
             "description": "Modify an emitter.",
             "link": "https://docs.ctjs.rocks/ct.emitters.html#manipulating-emitters"
+        },
+        "options": {
+            "example": "options.js",
+            "description": "Options for creating emitters.",
+            "link": "https://docs.ctjs.rocks/ct.emitters.html#additional-options"
         }
     }
 }
