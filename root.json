@@ -1,5 +1,24 @@
 {
     "camera": {
-        "coordinates": "coordinates.txt"
+        "coordinates": {
+            "example": "coordinates.txt",
+            "link": "https://docs.ctjs.rocks/ct.camera.html#ct-camera-x-ct-camera-y"
+        },
+        "dimensions": {
+            "example": "dimensions.txt",
+            "link": "https://docs.ctjs.rocks/ct.camera.html#ct-camera-width-ct-camera-height"
+        },
+        "follow": {
+            "example": "rotation.txt",
+            "link": "https://docs.ctjs.rocks/ct.camera.html#ct-camera-rotation"
+        },
+        "scale": {
+            "example": "scale.txt",
+            "link": "https://docs.ctjs.rocks/ct.camera.html#ct-camera-scale-x-ct-camera-scale-y"
+        },
+        "coordinate-conversion": {
+            "example": "coordinate-conversion.txt",
+            "link": "https://docs.ctjs.rocks/ct.camera.html#ct-camera-uitogamecoord-x-y-and-ct-camera-gametouicoord-x-y"
+        }
     }
 }
