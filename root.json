@@ -10,15 +10,23 @@
         },
         "follow": {
             "example": "rotation.txt",
-            "link": "https://docs.ctjs.rocks/ct.camera.html#ct-camera-rotation"
+            "link": "https://docs.ctjs.rocks/ct.camera.html#ct-camera-follow"
         },
         "scale": {
             "example": "scale.txt",
             "link": "https://docs.ctjs.rocks/ct.camera.html#ct-camera-scale-x-ct-camera-scale-y"
         },
-        "coordinate-conversion": {
-            "example": "coordinate-conversion.txt",
-            "link": "https://docs.ctjs.rocks/ct.camera.html#ct-camera-uitogamecoord-x-y-and-ct-camera-gametouicoord-x-y"
+        "rotation": {
+            "example": "rotation.txt",
+            "link": "https://docs.ctjs.rocks/ct.camera.html#ct-camera-rotation"
+        },
+        "shake": {
+            "example": "shake.txt",
+            "link": "https://docs.ctjs.rocks/ct.camera.html#screen-shake-and-wobble"
+        },
+        "extra": {
+            "example": "extra.txt",
+            "link": "https://docs.ctjs.rocks/ct.camera.html#other"
         }
     }
 }
